@@ -1,0 +1,19 @@
+.html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.body {
+  align-items: center;
+  background-color: hsl(60, 56%, 91%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.unorderedList {
+    display: flex;
+    flex-direction: column;
+}

@@ -2,22 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=!, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>list</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/division.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/division.css" />
+    <link rel="stylesheet" href="css/From.css">
+    <link rel="stylesheet" href="css/unorderedList.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script defer src="./javaScript.js"></script>
+<script defer src="javaScript.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body class="body">
-    <div class="divisionPrmiamry"><b>Lista zadań 📒</b></div>
+    <article>
+    <h1 class="divisionPrmiamry"><b>Lista zadań 📒</b></h1>
     <div class="divisionSecond"><b>Dodaj nowe zadanie </b></div>
     <div class="divisionMiddle">
-        <form class="form js-form"> <label><input class="input js-newTask" placeholder="wpisz zadanie " maxlength="52"></label><button class="button js-button" type="submit" >Prześlij✉️</button></form>
+        <form class="form js-form"> <label><input class="form__input js-newTask" placeholder="wpisz zadanie" maxlength="56"></label><input class="form__button js-button" value="Prześlij ✉️" type="submit" ></form>
     </div>
     <div class="divisionLast"><b>Rzeczy do zrobienia:</b></div>
     <div class="divisionTasks"><ul class="unorderedList js-tasks"></ul></div>
+  </article>
   </body>
 </html>

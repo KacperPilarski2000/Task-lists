@@ -4,8 +4,8 @@
   justify-content: flex-start;
   font-family: "Lato", sans-serif;
   font-size: 26px;
-  max-width: 710px;
-  min-width: 710px;
+  max-width: 610px;
+  min-width: 610px;
   margin: 10px;
 }
 @media (max-width: 767px) {
@@ -27,11 +27,12 @@
   box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
   display: flex;
   justify-content: flex-start;
-  min-width: 700px;
+  min-width: 610px;
   padding: 10px;
-  margin: 2px;
+  margin-bottom: 2px;
   -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
   -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+
   font-family: "Lato", sans-serif;
 }
 @media (max-width: 767px) {
@@ -41,14 +42,54 @@
     box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
     display: flex;
     justify-content: flex-start;
-    min-width: 300px;
+    min-width: 310px;
     padding: 10px;
-    margin: 2px;
+    margin-bottom: 2px;
     -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+
     font-family: "Lato", sans-serif;
   }
 }
+.divisionLast {
+  background-color: hsl(0, 0%, 99%);
+  box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+  font-family: "Lato", sans-serif;
+  margin-top: 7px;
+  padding: 10px;
+  min-width: 610px;
+  -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+}
+@media (max-width: 767px) {
+  .divisionLast {
+    background-color: hsl(0, 0%, 99%);
+    padding: 10px;
+    min-width: 310px;
+    -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+    box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
+    font-family: "Lato", sans-serif;
+    margin-top: 7px;
+  }
+}
+.divisionTasks {
+  background-color: hsl(0, 0%, 99%);
+  min-width: 610px;
+  min-height: 30px;
+  margin-top: 2px;
+  
+}
+@media (max-width: 767px) {
+  .divisionTasks {
+    background-color: hsl(0, 0%, 99%);
+    min-width: 310px;
+    min-height: 20px;
+    margin-top: 2px;
+
+  }
+}
+
 .divisionMiddle {
   align-items: flex-start;
   background-color: hsl(0, 0%, 99%);
@@ -58,11 +99,12 @@
   font-family: "Lato", sans-serif;
   justify-content: center;
   min-height: 30px;
-  min-width: 700px;
+  min-width: 610px;
   padding: 10px;
   -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
   -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
 }
+
 @media (max-width: 767px) {
   .divisionMiddle {
     align-items: flex-start;
@@ -73,88 +115,9 @@
     font-family: "Lato", sans-serif;
     justify-content: center;
     min-height: 30px;
-    min-width: 300px;
+    min-width: 310px;
     padding: 10px;
     -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
   }
-}
-.divisionLast {
-  background-color: hsl(0, 0%, 99%);
-  box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-  font-family: "Lato", sans-serif;
-  margin-top: 7px;
-  padding: 10px;
-  min-width: 700px;
-  -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-}
-@media (max-width: 767px) {
-  .divisionLast {
-    background-color: hsl(0, 0%, 99%);
-    padding: 10px;
-    min-width: 300px;
-    -webkit-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-    box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
-    font-family: "Lato", sans-serif;
-    margin-top: 7px;
-  }
-}
-.divisionTasks {
-  background-color: hsl(0, 0%, 99%);
-  min-width: 720px;
-  max-width: 720px;
-  min-height: 30px;
-  margin: 2px;
-}
-@media (max-width: 767px) {
-  .divisionTasks {
-    background-color: hsl(0, 0%, 99%);
-    min-width: 320px;
-    min-height: 20px;
-    margin: 2px;
-  }
-}
-.form {
-  display: flex;
-}
-
-.button {
-  border-radius: 6px;
-  background-color: rgb(137, 192, 174);
-  font-family: "Lato", sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-}
-.input {
-  min-width: 500px;
-}
-@media (max-width: 767px) {
-  .input {
-    min-width: 200px;
-  }
-}
-.divisionTasks__task {
-  font-family: "Lato", sans-serif;
-  justify-content: flex-start;
-  list-style-type: circle;
-  margin-top: 10px;
-  order: 1;
-  display: flex;
-  padding-right: 20px;
-}
-.divisionTasks__task--done {
-  font-family: "Lato", sans-serif;
-  list-style-type: circle;
-  margin-top: 10px;
-  text-decoration: line-through;
-  display: flex;
-  justify-content: flex-start;
-  padding-right: 20px;
-
-}
-.checkButton {
-  text-decoration: none;
 }

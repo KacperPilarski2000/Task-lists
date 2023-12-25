@@ -1,0 +1,74 @@
+.listItem {
+  display: grid;
+  grid-template-columns: 100px 400px 100px;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  width: 540px;
+  border-bottom: 1px solid hsl(0, 0%, 0%);
+}
+
+@media (max-width: 767px) {
+  .listItem {
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    width: 295px;
+    border-bottom: 1px solid hsl(0, 0%, 0%);
+  }
+}
+
+.listItem__button {
+  background-color: rgb(210, 44, 7);
+  font-family: "Lato", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.listItem__checkButton {
+  background-color: green;
+  min-width: 11px;
+  width: 15px;
+  height: 20px;
+}
+
+.unorderedList {
+  margin-left: 0px;
+  margin-top: 2px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+
+  .unorderedList {
+    margin-left: -20px;
+    margin-top: 2px;
+    padding-bottom: 16px;
+  }
+}
+
+.listItem__task--done {
+  text-decoration: line-through;
+}
+.listItem__paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .listItem__paragraph {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    justify-items: center;
+    padding-left: 15px;
+  }
+}

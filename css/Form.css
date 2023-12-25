@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+}
+.form__button {
+  background-color: rgb(43, 80, 154);
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+  margin-left: 3px;
+ 
+ 
+}
+.form__input {
+  min-width: 500px;
+}
+@media (max-width: 767px) {
+  .form__input {
+    min-width: 200px;
+  }
+}
+

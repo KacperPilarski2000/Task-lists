@@ -19,3 +19,7 @@ https://kacperpilarski2000.github.io/Task-lists/list.html
 -JavaScript.com/
 -bem convention 
 -https://ezgif.com/
+You can also test it yourself, it is very easy to use:
+- in the window "What is there to do?" (marked with a box) we type the task we want to add to our list,
+- then press the "Add task" button (green button),
+- the task will jump to the list below marked "Task List"

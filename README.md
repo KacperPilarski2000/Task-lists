@@ -13,10 +13,12 @@ Instruction how to use:
 Demo link 
 https://kacperpilarski2000.github.io/Task-lists/list.html
 
-## Language and tools used in this side:
--Html
--Css
--JavaScript.com/
--bem convention 
--https://ezgif.com/
+### Languages / Technologies
+- HTML
+- Java Script
+- CSS
+- BEM
+- GRID
+- ScreenToGit
+- MidJourney 
 

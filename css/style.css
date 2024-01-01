@@ -1,19 +1,15 @@
 .html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*,
-::after,
-::before {
-  box-sizing: inherit;
+
+*,::after, ::before {
+    box-sizing: inherit;
 }
+
 .body {
-  align-items: center;
-  background-color: hsl(60, 56%, 91%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    background-color: hsl(60, 6%, 75%);
 }
-.unorderedList {
-    display: flex;
-    flex-direction: column;
+.section {
+    max-width: 610px;
+    margin: 0 auto;  
 }

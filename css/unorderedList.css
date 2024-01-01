@@ -1,23 +1,20 @@
 .listItem {
   display: grid;
-  grid-template-columns: 100px 400px 100px;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   font-family: "Lato", sans-serif;
   padding-bottom: 20px;
   padding-top: 12px;
-  width: 540px;
   border-bottom: 1px solid hsl(0, 0%, 0%);
 }
 
 @media (max-width: 767px) {
   .listItem {
     display: grid;
-    grid-template-columns: 50px 200px 50px;
-    align-items: center;
+    grid-template-columns: auto 1fr auto;
     font-family: "Lato", sans-serif;
     padding-bottom: 20px;
     padding-top: 12px;
-    width: 295px;
     border-bottom: 1px solid hsl(0, 0%, 0%);
   }
 }
@@ -29,12 +26,15 @@
   margin-right: 10px;
   width: 20px;
   height: 20px;
+  border: none;
 }
+
 .listItem__checkButton {
   background-color: green;
   min-width: 11px;
   width: 15px;
   height: 20px;
+  border: none;
 }
 
 .unorderedList {
@@ -44,7 +44,6 @@
 }
 
 @media (max-width: 767px) {
-
   .unorderedList {
     margin-left: -20px;
     margin-top: 2px;
@@ -55,6 +54,7 @@
 .listItem__task--done {
   text-decoration: line-through;
 }
+
 .listItem__paragraph {
   display: flex;
   flex-direction: row;
@@ -65,10 +65,8 @@
 
 @media (max-width: 767px) {
   .listItem__paragraph {
-    display: flex;
-    flex-direction: wrap;
-    justify-content: flex-start;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     padding-left: 15px;
   }
 }
